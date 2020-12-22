@@ -81,6 +81,7 @@
 		963A8B6D256D28BB00BD5C74 /* LoginViewMockInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewMockInterface.swift; sourceTree = "<group>"; };
 		963A8B6F256D29FB00BD5C74 /* LoginFlowMockDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFlowMockDelegate.swift; sourceTree = "<group>"; };
 		963A8B73256D361700BD5C74 /* ListVIewMockModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListVIewMockModelTests.swift; sourceTree = "<group>"; };
+		96582574259246B8008F66E4 /* iOS-Intermediate-lession-1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS-Intermediate-lession-1.entitlements"; sourceTree = "<group>"; };
 		96A60B7E256BD1F100C5C71D /* iOS-Intermediate-lession-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Intermediate-lession-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A60B81256BD1F100C5C71D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96A60B83256BD1F100C5C71D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -202,6 +203,7 @@
 		96A60B80256BD1F100C5C71D /* iOS-Intermediate-lession-1 */ = {
 			isa = PBXGroup;
 			children = (
+				96582574259246B8008F66E4 /* iOS-Intermediate-lession-1.entitlements */,
 				96A60BD7256BF84400C5C71D /* Extensions */,
 				96A60BCE256BEED400C5C71D /* Scenes */,
 				96A60BBB256BE30E00C5C71D /* API */,
@@ -361,13 +363,16 @@
 				TargetAttributes = {
 					96A60B7D256BD1F100C5C71D = {
 						CreatedOnToolsVersion = 11.3;
+						ProvisioningStyle = Automatic;
 					};
 					96A60B93256BD1F300C5C71D = {
 						CreatedOnToolsVersion = 11.3;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 96A60B7D256BD1F100C5C71D;
 					};
 					96A60B9E256BD1F300C5C71D = {
 						CreatedOnToolsVersion = 11.3;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 96A60B7D256BD1F100C5C71D;
 					};
 				};
@@ -544,6 +549,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: kpaprika@icloud.com (7L9WW94SSG)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -604,6 +610,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: kpaprika@icloud.com (7L9WW94SSG)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -630,14 +637,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "iOS-Intermediate-lession-1/iOS-Intermediate-lession-1.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FUFRMWU3V;
 				INFOPLIST_FILE = "iOS-Intermediate-lession-1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.me.iOS-Intermediate-lession-1";
+				PRODUCT_BUNDLE_IDENTIFIER = kpaprika.iOS.kpaprika.lesssion.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -647,15 +658,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "iOS-Intermediate-lession-1/iOS-Intermediate-lession-1.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FUFRMWU3V;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = "iOS-Intermediate-lession-1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.me.iOS-Intermediate-lession-1";
+				PRODUCT_BUNDLE_IDENTIFIER = kpaprika.2iOS.kpaprika.lesssion.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

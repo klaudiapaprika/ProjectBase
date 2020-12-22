@@ -1,0 +1,63 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+lane :buildApp do
+    send_msg_to_slack
+    enable_automatic_code_signing
+    build_app(scheme: "iOS-Intermediate-lession-1")
+    test
+    UI.message("Built #{targetName} #{branchName} #{version}")
+end
+
+private_lane :send_msg_to_slack do
+    slack(
+            slack_url: "https://hooks.slack.com/services/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",
+            channel: "#ios_automation",
+            success: true,
+            message: "Started building",
+            payload: {
+                "Target Name" => "Release",
+                "Branch" => "#{git_branch}",
+                "Version" => "#{get_version_number}"
+            }
+    )
+end
+
+lane :tests do
+  run_tests(workspace: "iOS-Intermediate-lession-1.xcworkspace",
+            devices: ["iPhone 8"],
+            scheme: "iOS-Intermediate-lession-1")
+end
+
+private_lane :test do
+  run_tests(scheme: "iOS-Intermediate-lession-1")
+  if UI.confirm "Commit version bump and Tag this version?"
+    commit_version_bump
+    add_git_tag(tag: lane_context[SharedValues::VERSION_NUMBER])
+    push_git_tags
+  end
+end
+
+private_lane :prompt_for_marketing_version do |options|
+  marketing_version = get_version_number
+  new_version = UI.input("What marketing version? <enter to keep it at #{marketing_version}>")
+  unless new_version.strip == ""
+    increment_version_number(version_number: new_version)
+    UI.message("Version number set to #{new_version}")
+    marketing_version = new_version
+  end
+end
