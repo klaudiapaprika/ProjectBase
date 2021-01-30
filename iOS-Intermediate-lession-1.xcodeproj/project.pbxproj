@@ -640,7 +640,7 @@
 				CODE_SIGN_ENTITLEMENTS = "iOS-Intermediate-lession-1/iOS-Intermediate-lession-1.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7FUFRMWU3V;
+				DEVELOPMENT_TEAM = HCLD24CTXT;
 				INFOPLIST_FILE = "iOS-Intermediate-lession-1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -661,7 +661,7 @@
 				CODE_SIGN_ENTITLEMENTS = "iOS-Intermediate-lession-1/iOS-Intermediate-lession-1.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7FUFRMWU3V;
+				DEVELOPMENT_TEAM = HCLD24CTXT;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = "iOS-Intermediate-lession-1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
