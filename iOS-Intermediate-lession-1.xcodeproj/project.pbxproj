@@ -367,7 +367,6 @@
 					};
 					96A60B93256BD1F300C5C71D = {
 						CreatedOnToolsVersion = 11.3;
-						ProvisioningStyle = Automatic;
 						TestTargetID = 96A60B7D256BD1F100C5C71D;
 					};
 					96A60B9E256BD1F300C5C71D = {
@@ -646,7 +645,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kpaprika.iOS.kpaprika.lesssion.1;
+				PRODUCT_BUNDLE_IDENTIFIER = kpaprika.traning.ios.intermed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -668,7 +667,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kpaprika.2iOS.kpaprika.lesssion.1;
+				PRODUCT_BUNDLE_IDENTIFIER = kpaprika.traning.ios.intermed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -681,7 +680,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "iOS-Intermediate-lession-1Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -691,6 +691,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.me.iOS-Intermediate-lession-1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Intermediate-lession-1.app/iOS-Intermediate-lession-1";
@@ -702,7 +704,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "iOS-Intermediate-lession-1Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -712,6 +715,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.me.iOS-Intermediate-lession-1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Intermediate-lession-1.app/iOS-Intermediate-lession-1";
