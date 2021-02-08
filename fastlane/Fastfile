@@ -15,12 +15,32 @@
 
 default_platform(:ios)
 
+match(type: "appstore")
+
+match(type: "development")
+
+match(type: "adhoc",
+      app_identifier: "kpaprika.traning.ios.intermed")
+
+match(type: "enterprise",
+      app_identifier: "kpaprika.traning.ios.intermed")
+
+
 lane :buildApp do
     send_msg_to_slack
     enable_automatic_code_signing
     build_app(scheme: "iOS-Intermediate-lession-1")
     test
     UI.message("Built #{targetName} #{branchName} #{version}")
+end
+
+lane :automaticBuild do
+  send_msg_to_slack
+  enable_automatic_code_signing
+  xcversion(version: "12.2")
+  build_app(export_xcargs: "-allowProvisioningUpdates")
+  test
+  UI.message("Built #{targetName} #{branchName} #{version}")
 end
 
 private_lane :send_msg_to_slack do
@@ -60,4 +80,13 @@ private_lane :prompt_for_marketing_version do |options|
     UI.message("Version number set to #{new_version}")
     marketing_version = new_version
   end
+end
+
+lane :certificates do
+  match(app_identifier: ["kpaprika.traning.ios.intermed"])
+end
+
+lane :beta do
+  register_devices(devices_file: "./devices.txt")
+  match(type: "adhoc", force_for_new_devices: true)
 end
