@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DF6852B6C304C1064C2BBA5 /* Pods_iOS_Intermediate_lession_1_iOS_Intermediate_lession_1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFB8043798DA5AC7BF32BE0 /* Pods_iOS_Intermediate_lession_1_iOS_Intermediate_lession_1UITests.framework */; };
+		402354ED591607E8C92C4F3C /* Pods_iOS_Intermediate_lession_1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB6C51AAC47EF55BE05E56B /* Pods_iOS_Intermediate_lession_1Tests.framework */; };
 		9617DA5B256C3AA80001C925 /* UIViewController+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9617DA5A256C3AA80001C925 /* UIViewController+Load.swift */; };
 		9617DA5D256C42C20001C925 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9617DA5C256C42C20001C925 /* LoginViewController.storyboard */; };
 		9617DA60256C48320001C925 /* ComponentLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9617DA5F256C48320001C925 /* ComponentLabel.swift */; };
@@ -46,6 +48,7 @@
 		96A60BE6256BFB5B00C5C71D /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A60BE4256BFB5B00C5C71D /* UITableView.swift */; };
 		96A60BE7256BFB5B00C5C71D /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A60BE4256BFB5B00C5C71D /* UITableView.swift */; };
 		96A60BEA256BFE2800C5C71D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A60BE9256BFE2800C5C71D /* LoginViewController.swift */; };
+		EB5748C438C8DA7E63BBF2B1 /* Pods_iOS_Intermediate_lession_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147AD594A62F282CCE0B7306 /* Pods_iOS_Intermediate_lession_1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		147AD594A62F282CCE0B7306 /* Pods_iOS_Intermediate_lession_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Intermediate_lession_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB6C51AAC47EF55BE05E56B /* Pods_iOS_Intermediate_lession_1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Intermediate_lession_1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFB8043798DA5AC7BF32BE0 /* Pods_iOS_Intermediate_lession_1_iOS_Intermediate_lession_1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Intermediate_lession_1_iOS_Intermediate_lession_1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8D972517B1AD045C3FCA22 /* Pods-iOS-Intermediate-lession-1-iOS-Intermediate-lession-1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Intermediate-lession-1-iOS-Intermediate-lession-1UITests.release.xcconfig"; path = "Target Support Files/Pods-iOS-Intermediate-lession-1-iOS-Intermediate-lession-1UITests/Pods-iOS-Intermediate-lession-1-iOS-Intermediate-lession-1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		5ABA2F7E38A0C7DF21A765AE /* Pods-iOS-Intermediate-lession-1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Intermediate-lession-1.release.xcconfig"; path = "Target Support Files/Pods-iOS-Intermediate-lession-1/Pods-iOS-Intermediate-lession-1.release.xcconfig"; sourceTree = "<group>"; };
+		601E862931AD77194B440EBD /* Pods-iOS-Intermediate-lession-1-iOS-Intermediate-lession-1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Intermediate-lession-1-iOS-Intermediate-lession-1UITests.debug.xcconfig"; path = "Target Support Files/Pods-iOS-Intermediate-lession-1-iOS-Intermediate-lession-1UITests/Pods-iOS-Intermediate-lession-1-iOS-Intermediate-lession-1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F468F37B0D83281776946A6 /* Pods-iOS-Intermediate-lession-1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Intermediate-lession-1Tests.debug.xcconfig"; path = "Target Support Files/Pods-iOS-Intermediate-lession-1Tests/Pods-iOS-Intermediate-lession-1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9617DA5A256C3AA80001C925 /* UIViewController+Load.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Load.swift"; sourceTree = "<group>"; };
 		9617DA5C256C42C20001C925 /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LoginViewController.storyboard; path = Views/LoginViewController.storyboard; sourceTree = "<group>"; };
 		9617DA5F256C48320001C925 /* ComponentLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentLabel.swift; sourceTree = "<group>"; };
@@ -104,6 +114,8 @@
 		96A60BE0256BFB3D00C5C71D /* UIStackViewAddContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackViewAddContent.swift; sourceTree = "<group>"; };
 		96A60BE4256BFB5B00C5C71D /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		96A60BE9256BFE2800C5C71D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E029303B6C794B75DB231514 /* Pods-iOS-Intermediate-lession-1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Intermediate-lession-1.debug.xcconfig"; path = "Target Support Files/Pods-iOS-Intermediate-lession-1/Pods-iOS-Intermediate-lession-1.debug.xcconfig"; sourceTree = "<group>"; };
+		EA95A48D449AC8EA55C61DB8 /* Pods-iOS-Intermediate-lession-1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Intermediate-lession-1Tests.release.xcconfig"; path = "Target Support Files/Pods-iOS-Intermediate-lession-1Tests/Pods-iOS-Intermediate-lession-1Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB5748C438C8DA7E63BBF2B1 /* Pods_iOS_Intermediate_lession_1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402354ED591607E8C92C4F3C /* Pods_iOS_Intermediate_lession_1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,12 +139,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF6852B6C304C1064C2BBA5 /* Pods_iOS_Intermediate_lession_1_iOS_Intermediate_lession_1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B138F92BD22C5ED2CAAB4CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E029303B6C794B75DB231514 /* Pods-iOS-Intermediate-lession-1.debug.xcconfig */,
+				5ABA2F7E38A0C7DF21A765AE /* Pods-iOS-Intermediate-lession-1.release.xcconfig */,
+				601E862931AD77194B440EBD /* Pods-iOS-Intermediate-lession-1-iOS-Intermediate-lession-1UITests.debug.xcconfig */,
+				4A8D972517B1AD045C3FCA22 /* Pods-iOS-Intermediate-lession-1-iOS-Intermediate-lession-1UITests.release.xcconfig */,
+				8F468F37B0D83281776946A6 /* Pods-iOS-Intermediate-lession-1Tests.debug.xcconfig */,
+				EA95A48D449AC8EA55C61DB8 /* Pods-iOS-Intermediate-lession-1Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F76CD65B354D52236649BAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				147AD594A62F282CCE0B7306 /* Pods_iOS_Intermediate_lession_1.framework */,
+				3AFB8043798DA5AC7BF32BE0 /* Pods_iOS_Intermediate_lession_1_iOS_Intermediate_lession_1UITests.framework */,
+				2EB6C51AAC47EF55BE05E56B /* Pods_iOS_Intermediate_lession_1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9617DA5E256C47FE0001C925 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +226,8 @@
 				96A60B97256BD1F300C5C71D /* iOS-Intermediate-lession-1Tests */,
 				96A60BA2256BD1F300C5C71D /* iOS-Intermediate-lession-1UITests */,
 				96A60B7F256BD1F100C5C71D /* Products */,
+				4B138F92BD22C5ED2CAAB4CF /* Pods */,
+				5F76CD65B354D52236649BAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -302,6 +343,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96A60BA8256BD1F300C5C71D /* Build configuration list for PBXNativeTarget "iOS-Intermediate-lession-1" */;
 			buildPhases = (
+				761E1B6CB06C7EF3AB6C35B6 /* [CP] Check Pods Manifest.lock */,
 				96A60B7A256BD1F100C5C71D /* Sources */,
 				96A60B7B256BD1F100C5C71D /* Frameworks */,
 				96A60B7C256BD1F100C5C71D /* Resources */,
@@ -319,6 +361,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96A60BAB256BD1F300C5C71D /* Build configuration list for PBXNativeTarget "iOS-Intermediate-lession-1Tests" */;
 			buildPhases = (
+				3EF27A24909EEE4DC75D1CEC /* [CP] Check Pods Manifest.lock */,
 				96A60B90256BD1F300C5C71D /* Sources */,
 				96A60B91256BD1F300C5C71D /* Frameworks */,
 				96A60B92256BD1F300C5C71D /* Resources */,
@@ -337,6 +380,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96A60BAE256BD1F300C5C71D /* Build configuration list for PBXNativeTarget "iOS-Intermediate-lession-1UITests" */;
 			buildPhases = (
+				64A3A34B17353C124FE3D874 /* [CP] Check Pods Manifest.lock */,
 				96A60B9B256BD1F300C5C71D /* Sources */,
 				96A60B9C256BD1F300C5C71D /* Frameworks */,
 				96A60B9D256BD1F300C5C71D /* Resources */,
@@ -423,6 +467,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EF27A24909EEE4DC75D1CEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-Intermediate-lession-1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64A3A34B17353C124FE3D874 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-Intermediate-lession-1-iOS-Intermediate-lession-1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		761E1B6CB06C7EF3AB6C35B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-Intermediate-lession-1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96A60B7A256BD1F100C5C71D /* Sources */ = {
@@ -634,6 +747,7 @@
 		};
 		96A60BA9256BD1F300C5C71D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E029303B6C794B75DB231514 /* Pods-iOS-Intermediate-lession-1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "iOS-Intermediate-lession-1/iOS-Intermediate-lession-1.entitlements";
@@ -655,6 +769,7 @@
 		};
 		96A60BAA256BD1F300C5C71D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABA2F7E38A0C7DF21A765AE /* Pods-iOS-Intermediate-lession-1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "iOS-Intermediate-lession-1/iOS-Intermediate-lession-1.entitlements";
@@ -677,6 +792,7 @@
 		};
 		96A60BAC256BD1F300C5C71D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F468F37B0D83281776946A6 /* Pods-iOS-Intermediate-lession-1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -701,6 +817,7 @@
 		};
 		96A60BAD256BD1F300C5C71D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA95A48D449AC8EA55C61DB8 /* Pods-iOS-Intermediate-lession-1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -725,6 +842,7 @@
 		};
 		96A60BAF256BD1F300C5C71D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601E862931AD77194B440EBD /* Pods-iOS-Intermediate-lession-1-iOS-Intermediate-lession-1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -744,6 +862,7 @@
 		};
 		96A60BB0256BD1F300C5C71D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8D972517B1AD045C3FCA22 /* Pods-iOS-Intermediate-lession-1-iOS-Intermediate-lession-1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
