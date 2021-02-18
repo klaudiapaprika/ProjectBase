@@ -1,0 +1,6 @@
+framework module Pods_iOS_Intermediate_lession_1_iOS_Intermediate_lession_1UITests {
+  umbrella header "Pods-iOS-Intermediate-lession-1-iOS-Intermediate-lession-1UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
